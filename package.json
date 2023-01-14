@@ -1,0 +1,21 @@
+{
+  "name": "@pawel-kuznik/blindsight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "Paweł Kuźnik <pawel.kuznik@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@types/jest": "^29.2.5",
+    "ts-jest": "^29.0.5"
+  }
+}
