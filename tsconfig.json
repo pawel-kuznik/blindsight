@@ -1,5 +1,13 @@
 {
     "compilerOptions": {
-        "esModuleInterop": true
-    }
+        "esModuleInterop": true,
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "outDir": "./build",
+        "strict": true,
+        "lib": ["es6", "es2017", "dom"]
+    },
+    "include": ["src"],
+    "exclude": ["build", "node_modules", "**/__tests__/*", "**/*.test.ts"]
 }
